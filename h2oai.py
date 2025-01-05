@@ -42,7 +42,7 @@ performance = prediction_model.model_performance()
 print(performance)
 
 # Predict future CO2 emissions for year 2020 to 2040
-future_years = pd.DataFrame({'Year': range(2020, 2040)})
+future_years = pd.DataFrame({'Year': range(2020, 2041)})
 future_predictions = []
 
 # Predict for every year in future years
